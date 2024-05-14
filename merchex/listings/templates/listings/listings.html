@@ -1,0 +1,12 @@
+{% extends "listings/base.html" %}
+
+{% block content %}
+
+<h1>Ta soeur en slibar</h1>
+<ul>
+    {% for lol in saucissedemorto%}
+    <li>{{lol.name}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
